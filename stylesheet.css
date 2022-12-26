@@ -70,6 +70,10 @@ li {
     background-color: rgba(115, 66, 214, 0.1);
 }
 
+
+
+/*HEADER*/
+
 header {
     height: calc(100vh - 80px);
 }
@@ -91,6 +95,10 @@ header {
     justify-content: space-between ;
 }
 
+.header__img--wrapper {
+    padding: 20px;
+}
+
 h1 {
     font-size: 56px;
     color: #7342d6;
@@ -103,6 +111,10 @@ h2 {
     margin-bottom: 32px;
     text-align: center;
 }
+
+
+/* BUTTON */
+
 
 button {
     cursor: pointer;
@@ -119,4 +131,28 @@ button:active {
     font-size: 20px;
     border-radius: 8px;
     border: none;
+}
+
+.container {
+    padding: 56px 0;
+}
+
+.row {  
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/*HIGHLIGHTS*/
+
+.highlight__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.highlight {
+    padding: 0 24px;
+    width: calc(100% / 3);
 }
