@@ -416,6 +416,7 @@ footer {
 /*SMALL PHONES AND LARGE PHONES*/
 
 @media (max-width: 768px) {
+
     .header__description {
         padding: 0 24px;
     }
@@ -442,6 +443,9 @@ footer {
 
 
 @media (max-width: 550px) {
+    .nav__links {
+        display: none;
+    }
     .btn__menu {
         display:block;
     }
